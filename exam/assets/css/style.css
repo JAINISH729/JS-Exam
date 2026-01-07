@@ -1,0 +1,68 @@
+.background{
+background-image: url("../image/pexels-leeloothefirst-5428830.jpg") ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+}
+.py-120{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        input, textarea, select, button {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+        }
+
+        button {
+            background: #beaf9e;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .filters input, .filters select {
+            flex: 1;
+        }
+
+        .task {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #007bff;
+        }
+
+        .task.high { border-left-color: red; }
+        .task.medium { border-left-color: orange; }
+        .task.low { border-left-color: green; }
+
+        .task-buttons {
+            margin-top: 10px;
+        }
+
+        .task-buttons button {
+            width: auto;
+            margin-right: 5px;
+        }
